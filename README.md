@@ -98,3 +98,13 @@ Review the destruction plan before confirming.
 - No NAT Gateway is deployed.
 - No application servers or databases are deployed.
 - AWS credentials and Terraform state files must not be committed to GitHub.
+## Deployment Evidence
+
+### Terraform Infrastructure
+![Terraform State](screenshots/terraform-state.jpeg)
+
+### Public and Private Subnets
+![AWS Subnets](screenshots/subnet-configuration.jpeg)
+
+### Public Route Table
+![AWS Route Table](screenshots/public-route-table.jpeg)
